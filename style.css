@@ -1,0 +1,188 @@
+
+
+*{
+  font-family: cursive;
+  }
+
+
+body {
+  background-color: #3e697c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header{
+    background-color: #303030;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1{
+    color: #fff;
+    margin: 0;
+  }
+
+  h3{
+    color: #fff;
+  }
+
+  p{
+    color: #fff;
+  }
+
+
+  
+  main{
+    padding: 20px;
+  }
+
+  
+  footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+
+li{
+  list-style-type: none;
+  }
+
+  .nomes{
+    height: 100px;
+    padding: -20px;
+  }
+
+
+img{
+    max-width:533px;
+    position: relative;
+    margin:15px;
+    border-radius: 30px;
+    border-style:solid;
+}
+
+.dengue{
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dengue p{
+    width: 530px;
+}
+  
+.dengue h3{
+    width: 550px;
+}
+
+.dengue .texto{
+    transition: 1.2s;
+    position: relative;
+    right: 550px;
+    filter: opacity(0);
+}
+
+.dengue:hover .texto{
+    transition: 1.2s;
+    position: relative;
+    right: 0px;
+    filter: opacity(100);
+}
+
+.vacina{
+  cursor: default;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.vacina p{
+  width: 530px;
+}
+
+.vacina h3{
+  width: 550px;
+}
+
+.vacina .texto{
+  transition: 1s;
+  position: relative;
+  left: 550px;
+  filter: opacity(0);
+}
+  
+.vacina:hover .texto{
+  transition: 1s;
+  position: relative;
+  left: 0px;
+  filter: opacity(100);
+}
+
+.sintomas{
+  cursor: default;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sintomas p{
+  width: 530px;
+}
+
+.sintomas h3{
+  width: 550px;
+}
+
+.sintomas .texto{
+  transition: 1s;
+  position: relative;
+  right: 550px;
+  filter: opacity(0);
+}
+  
+.sintomas:hover .texto{
+  transition: 1s;
+  position: relative;
+  right: 0px;
+  filter: opacity(100);
+}
+
+.prevencao{
+  cursor: default;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.prevencao p{
+  width: 530px;
+}
+
+.prevencao h3{
+  width: 550px;
+}
+
+.prevencao .texto{
+  transition: 1s;
+  position: relative;
+  left: 550px;
+  filter: opacity(0);
+}
+  
+.prevencao:hover .texto{
+  transition: 1s;
+  position: relative;
+  left: 0px;
+  filter: opacity(100);
+}
+
+
+
+
+
+
+
+
